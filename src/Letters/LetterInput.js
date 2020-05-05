@@ -3,11 +3,11 @@ import '../Letters/LetterInput.scss';
 
 export default (props) => {
   const { chosenWord, correctLetters } = props;
-  const [value, setValue] = useState(props.chosenWord);
+  const [value, setValue] = useState(chosenWord);
 
   useEffect(() => {
-    setValue(props.chosenWord);
-  }, [props.chosenWord]);
+    setValue(chosenWord);
+  }, [chosenWord]);
 
   return (
     <div className='word'>

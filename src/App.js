@@ -104,7 +104,7 @@ export default () => {
           <Letters onLetterClicked={handleLetterClick} incorrectLetters={incorrectLetters} />
         </React.Fragment>
       )}
-      {!gameState && <GameResult result={gameResult} onRestartClick={startGame} />}
+      {(!gameState && gameResult) && <GameResult result={gameResult} onRestartClick={startGame} />}
     </div>
   );
 };
