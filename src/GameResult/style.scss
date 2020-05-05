@@ -1,0 +1,34 @@
+.dialog {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 33%;
+  background-color: violet;
+  box-shadow: 0px 0px 20px 0px;
+  width: 50%;
+  min-width: 330px;
+  max-width: 400px;
+  height: 30%;
+  margin: auto;
+
+  p {
+    font-size: 26px;
+    line-height: 150px;
+    margin: 0;
+  }
+
+  button {
+    width: 120px;
+    height: 35px;
+    border: 2px solid mediumorchid;
+    background-color: transparent;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.5s all;
+
+    &:hover {
+      background-color: mediumorchid;
+    }
+  }
+}
