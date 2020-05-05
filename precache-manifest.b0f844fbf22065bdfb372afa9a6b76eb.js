@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b3723e7c1ff23551835c652ae41fd825",
+    "revision": "5fff87608ccbb71b8654d91137108576",
     "url": "/hangman/index.html"
   },
   {
-    "revision": "1c97ab0f73ce6f3cf466",
+    "revision": "e6ffbb6ab95c8b8bca9c",
     "url": "/hangman/static/css/main.a77c8856.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hangman/static/js/2.24ff8a69.chunk.js.LICENSE"
   },
   {
-    "revision": "1c97ab0f73ce6f3cf466",
-    "url": "/hangman/static/js/main.4a619d59.chunk.js"
+    "revision": "e6ffbb6ab95c8b8bca9c",
+    "url": "/hangman/static/js/main.4bb84292.chunk.js"
   },
   {
     "revision": "6bcab2d1b8a15260d101",
